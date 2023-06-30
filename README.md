@@ -1,5 +1,6 @@
 # php-ecrecover-simple
-A PHP file that conains *just* the required function to recover a signed message with personal_sign. Requires the GMP extension.
+A PHP file that conains *just* the required function to recover the public addr. of a signed message with personal_sign. 
+Requires the GMP extension.
 
 ## Using
 ```php

@@ -1,5 +1,5 @@
 # php-ecrecover-simple
-A PHP file that conains *just* the required function to recover the public addr. of a signed message with personal_sign. 
+A PHP file that conains *just* the required functions to recover the public addr. of a signed message with personal_sign in the Ethereum protocol. 
 Requires the GMP extension.
 
 ## Using
@@ -15,16 +15,15 @@ echo $addr;
 ```
 
 ## Features
-The work covered by [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) and its references. 
-But stripped down to only the executed 64bit functions and some parts where optimized*.
-While Keccak improved something, curve function optimizations does not lead to improvements (yet).
+The work covered by [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) and its references down to only the executed functions ( **and only 64bit**) plus some optimizations*.
+While *Keccak* improved something, curve function optimizations does not lead to same improvements.
 - Keccak 10k runs  3.1  vs 2.0  seconds
 - erecover 10k runs  8.4  vs 7.8 seconds
-* Via GPT4 suggestions and unrolls.
+*Via GPT4 suggestions and unrolls.
 
 ## Credits
-In case you liked it, make sure to credit referenced projects.
-My Eth account: 0xe7d20412fec151ac99864cfa7dc825999dcac602
+In case you liked it, make sure to credit projects and references above.
+My Eth account: ```0xe7d20412fec151ac99864cfa7dc825999dcac602```
 
 
 # And some fun

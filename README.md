@@ -1,5 +1,5 @@
 # php-ecrecover-simple
-A PHP file that conains *just* the required functions to recover the public addr. of a signed message with personal_sign in the Ethereum protocol. 
+A PHP file that conains *just* the required functions to recover the public address of a signed message with *personal_sign* in the Ethereum protocol. 
 Requires the GMP extension.
 
 ## Using

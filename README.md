@@ -15,10 +15,11 @@ echo $addr;
 ```
 
 ## Features
-The work covered by [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) and its references down to only the executed functions ( **and only 64bit**) plus some optimizations*.
+The work covered by [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) and its references stripped down to only the executed functions ( **and only 64bit** ) plus some optimizations* .
 While *Keccak* improved something, curve function optimizations does not lead to same improvements.
 - Keccak 10k runs  3.1  vs 2.0  seconds
 - erecover 10k runs  8.4  vs 7.8 seconds
+  
 *Via GPT4 suggestions and unrolls.
 
 ## Credits

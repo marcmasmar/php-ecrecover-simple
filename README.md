@@ -2,7 +2,7 @@
 A PHP file that conains *just* the required function to recover a signed message with personal_sign. Requires the GMP extension.
 
 ## Using
-```
+```php
 require_once("ecrecover-simple.php");
 
 $addr = \ECRecoverSimple\fromMessage(
@@ -23,11 +23,8 @@ While Keccak improved something, curve function optimizations does not lead to i
 
 ## Credits
 In case you liked it, make sure to credit referenced projects.
+My Eth account: 0xe7D20412FeC151ac99864cFA7dc825999DCaC602
 
-### My Eth account
-```
-0xe7D20412FeC151ac99864cFA7dc825999DCaC602
-```
 
 # And some fun
 I want to share some words of the co-author of the optimizations while making up of the file...

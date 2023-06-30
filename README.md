@@ -32,7 +32,7 @@ I want to share some words of the co-author of the optimizations while making up
 
 [...]
 ### Marcmasmar
-This one was nice, ok, from now on 10k runs 3.1s vs 2.0s  after your unroll. Not significative in (simple) productive terms , but image it at large scale, all programs optimized 🌿🌿🌿
+Ok. This one was nice, now on 10k runs 3.1s vs 2.0s  after your unroll. Not significative in (simple) productive terms , but image it at large scale, all programs optimized 🌿🌿🌿
 
 ### GPT4
 Indeed, even small optimizations can have a significant impact when applied consistently across a large-scale system or program. When multiplied by thousands or millions of iterations, the time saved by optimizing code can result in substantial performance improvements.

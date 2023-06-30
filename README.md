@@ -23,7 +23,7 @@ While Keccak improved something, curve function optimizations does not lead to i
 
 ## Credits
 In case you liked it, make sure to credit referenced projects.
-My Eth account: 0xe7D20412FeC151ac99864cFA7dc825999DCaC602
+My Eth account: 0xe7d20412fec151ac99864cfa7dc825999dcac602
 
 
 # And some fun

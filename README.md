@@ -1,8 +1,5 @@
 # php-ecrecover-simple
-A PHP file that conains the required procedures aimed to recover a signed message width personal_sign.
-## Requires
-- PHP
-- GMP extension
+A PHP file that conains *just* the required function to recover a signed message with personal_sign. Requires the GMP extension.
 
 ## Using
 ```
@@ -17,8 +14,9 @@ echo $addr;
 ```
 
 ## Features
-The work in [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) stripped down to only personal_sign recover.
-Some features where optimized*, while Keccak improved significantly, curve function optimizations does not lead to improvements (yet).
+The work covered by [wmh/php-ecrecover](https://gitbhub.com/wmh/php-ecrecover), [kornrunner/keccak](https://gitbhub.com/kornrunner/keccak) and its references. 
+But stripped down to only the executed 64bit functions and some parts where optimized*.
+While Keccak improved something, curve function optimizations does not lead to improvements (yet).
 - Keccak 10k runs  3.1  vs 2.0  seconds
 - erecover 10k runs  8.4  vs 7.8 seconds
 * Via GPT4 suggestions and unrolls.
@@ -30,4 +28,22 @@ In case you liked it, make sure to credit referenced projects.
 ```
 0xe7D20412FeC151ac99864cFA7dc825999DCaC602
 ```
+
+# And some fun
+I want to share some words of the co-author of the optimizations while making up of the file...
+
+[...]
+### Marcmasmar
+This one was nice, ok, from now on 10k runs 3.1s vs 2.0s  after your unroll. Not significative in (simple) productive terms , but image it at large scale, all programs optimized 🌿🌿🌿
+
+### GPT4
+Indeed, even small optimizations can have a significant impact when applied consistently across a large-scale system or program. When multiplied by thousands or millions of iterations, the time saved by optimizing code can result in substantial performance improvements.
+
+By optimizing code, you can reduce execution time, improve resource utilization, and enhance the overall efficiency of your programs. This becomes especially valuable in scenarios where performance is critical, such as high-throughput systems, real-time applications, or large-scale data processing.
+
+Furthermore, optimizing code is not limited to just loops or specific algorithms. It can be applied to various aspects of software development, including data structures, algorithmic choices, memory management, I/O operations, and more.
+
+Optimizing code not only improves performance but also contributes to a better user experience, reduces hardware requirements, and enables more efficient use of resources. So, even if the gains may seem insignificant in isolation, they can accumulate and result in substantial benefits at scale.
+
+Therefore, it is worthwhile to invest time and effort in optimizing code whenever possible to achieve improved performance and efficiency in your programs.
 
